@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>タイトルを書き換えよう</title>
+
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+    <div class="frame">
+        <h1 class="frame__title">JavaScript</h1>
+
+        <div class="frame__inner">
+            <script>
+                let answer = prompt('1から 10まで個数を入力してください。');
+                if (answer >= 1 && answer <= 10) {
+                    document.write('正しく入力されました');
+                } else{
+                    document.write('1から 10まで個数を入力してください。');
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
